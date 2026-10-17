@@ -1,0 +1,182 @@
+{
+ "duration": 31.7,
+ "utterances": [
+  {
+   "start": 1.0,
+   "end": 3.17,
+   "text": "Hi there, I've got a question."
+  },
+  {
+   "start": 7.17,
+   "end": 10.459999999999999,
+   "text": "What's the best way to start running if I've never done it before?"
+  },
+  {
+   "start": 13.459999999999999,
+   "end": 15.854999999999999,
+   "text": "Wait, hold on, sorry."
+  },
+  {
+   "start": 20.854999999999997,
+   "end": 23.699999999999996,
+   "text": "I meant running on a treadmill, not outside."
+  }
+ ],
+ "words": [
+  {
+   "text": "Hi",
+   "start": 1.1,
+   "end": 1.252
+  },
+  {
+   "text": "there",
+   "start": 1.325,
+   "end": 1.6800000000000002
+  },
+  {
+   "text": "I've",
+   "start": 2.08,
+   "end": 2.255
+  },
+  {
+   "text": "got",
+   "start": 2.255,
+   "end": 2.48
+  },
+  {
+   "text": "a",
+   "start": 2.48,
+   "end": 2.535
+  },
+  {
+   "text": "question",
+   "start": 2.535,
+   "end": 3.17
+  },
+  {
+   "text": "What's",
+   "start": 7.27,
+   "end": 7.555
+  },
+  {
+   "text": "the",
+   "start": 7.555,
+   "end": 7.65
+  },
+  {
+   "text": "best",
+   "start": 7.65,
+   "end": 7.984999999999999
+  },
+  {
+   "text": "way",
+   "start": 7.984999999999999,
+   "end": 8.12
+  },
+  {
+   "text": "to",
+   "start": 8.18,
+   "end": 8.32
+  },
+  {
+   "text": "start",
+   "start": 8.32,
+   "end": 8.68
+  },
+  {
+   "text": "running",
+   "start": 8.68,
+   "end": 8.975
+  },
+  {
+   "text": "if",
+   "start": 8.975,
+   "end": 9.125
+  },
+  {
+   "text": "I've",
+   "start": 9.125,
+   "end": 9.29
+  },
+  {
+   "text": "never",
+   "start": 9.29,
+   "end": 9.585
+  },
+  {
+   "text": "done",
+   "start": 9.585,
+   "end": 9.84
+  },
+  {
+   "text": "it",
+   "start": 9.84,
+   "end": 9.96
+  },
+  {
+   "text": "before",
+   "start": 9.96,
+   "end": 10.459999999999999
+  },
+  {
+   "text": "Wait",
+   "start": 13.559999999999999,
+   "end": 13.889999999999999
+  },
+  {
+   "text": "hold",
+   "start": 14.29,
+   "end": 14.59
+  },
+  {
+   "text": "on",
+   "start": 14.59,
+   "end": 14.919999999999998
+  },
+  {
+   "text": "sorry",
+   "start": 15.319999999999999,
+   "end": 15.854999999999999
+  },
+  {
+   "text": "I",
+   "start": 20.955,
+   "end": 21.006999999999998
+  },
+  {
+   "text": "meant",
+   "start": 21.059999999999995,
+   "end": 21.319999999999997
+  },
+  {
+   "text": "running",
+   "start": 21.319999999999997,
+   "end": 21.624999999999996
+  },
+  {
+   "text": "on",
+   "start": 21.624999999999996,
+   "end": 21.749999999999996
+  },
+  {
+   "text": "a",
+   "start": 21.749999999999996,
+   "end": 21.819999999999997
+  },
+  {
+   "text": "treadmill",
+   "start": 21.819999999999997,
+   "end": 22.459999999999997
+  },
+  {
+   "text": "not",
+   "start": 22.859999999999996,
+   "end": 23.109999999999996
+  },
+  {
+   "text": "outside",
+   "start": 23.109999999999996,
+   "end": 23.699999999999996
+  }
+ ]
+}

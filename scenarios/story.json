@@ -1,0 +1,412 @@
+{
+ "duration": 37.335,
+ "utterances": [
+  {
+   "start": 1.0,
+   "end": 3.415,
+   "text": "Hey, can I run something past you?"
+  },
+  {
+   "start": 7.415,
+   "end": 29.334999999999997,
+   "text": "So last weekend I finally took my old car up the coast road, and about an hour in, the engine light started blinking. I pulled over at a little gas station, and the guy there told me it was probably just a loose sensor. Anyway, I made it home fine, but I've got a long trip next month, so do you think I can press on or should I get it checked?"
+  }
+ ],
+ "words": [
+  {
+   "text": "Hey",
+   "start": 1.1,
+   "end": 1.305
+  },
+  {
+   "text": "can",
+   "start": 1.805,
+   "end": 2.0
+  },
+  {
+   "text": "I",
+   "start": 2.0,
+   "end": 2.052
+  },
+  {
+   "text": "run",
+   "start": 2.105,
+   "end": 2.3600000000000003
+  },
+  {
+   "text": "something",
+   "start": 2.36,
+   "end": 2.7649999999999997
+  },
+  {
+   "text": "past",
+   "start": 2.7649999999999997,
+   "end": 3.145
+  },
+  {
+   "text": "you",
+   "start": 3.145,
+   "end": 3.415
+  },
+  {
+   "text": "So",
+   "start": 7.515,
+   "end": 7.765
+  },
+  {
+   "text": "last",
+   "start": 7.765,
+   "end": 8.11
+  },
+  {
+   "text": "weekend",
+   "start": 8.11,
+   "end": 8.515
+  },
+  {
+   "text": "I",
+   "start": 8.515,
+   "end": 8.57
+  },
+  {
+   "text": "finally",
+   "start": 8.625,
+   "end": 9.09
+  },
+  {
+   "text": "took",
+   "start": 9.09,
+   "end": 9.365
+  },
+  {
+   "text": "my",
+   "start": 9.365,
+   "end": 9.497
+  },
+  {
+   "text": "old",
+   "start": 9.575,
+   "end": 9.81
+  },
+  {
+   "text": "car",
+   "start": 9.81,
+   "end": 10.105
+  },
+  {
+   "text": "up",
+   "start": 10.105,
+   "end": 10.28
+  },
+  {
+   "text": "the",
+   "start": 10.28,
+   "end": 10.385
+  },
+  {
+   "text": "coast",
+   "start": 10.385,
+   "end": 10.795
+  },
+  {
+   "text": "road",
+   "start": 10.795,
+   "end": 11.125
+  },
+  {
+   "text": "and",
+   "start": 11.524999999999999,
+   "end": 11.625
+  },
+  {
+   "text": "about",
+   "start": 11.625,
+   "end": 11.905
+  },
+  {
+   "text": "an",
+   "start": 11.905000000000001,
+   "end": 12.025
+  },
+  {
+   "text": "hour",
+   "start": 12.024999999999999,
+   "end": 12.305
+  },
+  {
+   "text": "in",
+   "start": 12.305,
+   "end": 12.535
+  },
+  {
+   "text": "the",
+   "start": 12.934999999999999,
+   "end": 13.09
+  },
+  {
+   "text": "engine",
+   "start": 13.09,
+   "end": 13.45
+  },
+  {
+   "text": "light",
+   "start": 13.45,
+   "end": 13.709999999999999
+  },
+  {
+   "text": "started",
+   "start": 13.71,
+   "end": 14.105
+  },
+  {
+   "text": "blinking",
+   "start": 14.105,
+   "end": 14.625
+  },
+  {
+   "text": "I",
+   "start": 15.475000000000001,
+   "end": 15.52
+  },
+  {
+   "text": "pulled",
+   "start": 15.565000000000001,
+   "end": 15.89
+  },
+  {
+   "text": "over",
+   "start": 15.89,
+   "end": 16.16
+  },
+  {
+   "text": "at",
+   "start": 16.16,
+   "end": 16.25
+  },
+  {
+   "text": "a",
+   "start": 16.25,
+   "end": 16.32
+  },
+  {
+   "text": "little",
+   "start": 16.32,
+   "end": 16.58
+  },
+  {
+   "text": "gas",
+   "start": 16.58,
+   "end": 16.88
+  },
+  {
+   "text": "station",
+   "start": 16.88,
+   "end": 17.4
+  },
+  {
+   "text": "and",
+   "start": 17.8,
+   "end": 17.905
+  },
+  {
+   "text": "the",
+   "start": 17.905,
+   "end": 17.995
+  },
+  {
+   "text": "guy",
+   "start": 17.995,
+   "end": 18.165
+  },
+  {
+   "text": "there",
+   "start": 18.259999999999998,
+   "end": 18.439999999999998
+  },
+  {
+   "text": "told",
+   "start": 18.44,
+   "end": 18.8
+  },
+  {
+   "text": "me",
+   "start": 18.8,
+   "end": 18.97
+  },
+  {
+   "text": "it",
+   "start": 18.97,
+   "end": 19.095
+  },
+  {
+   "text": "was",
+   "start": 19.095,
+   "end": 19.25
+  },
+  {
+   "text": "probably",
+   "start": 19.25,
+   "end": 19.8
+  },
+  {
+   "text": "just",
+   "start": 19.8,
+   "end": 20.09
+  },
+  {
+   "text": "a",
+   "start": 20.09,
+   "end": 20.154999999999998
+  },
+  {
+   "text": "loose",
+   "start": 20.155,
+   "end": 20.424999999999997
+  },
+  {
+   "text": "sensor",
+   "start": 20.425,
+   "end": 20.92
+  },
+  {
+   "text": "Anyway",
+   "start": 21.77,
+   "end": 22.125
+  },
+  {
+   "text": "I",
+   "start": 22.625,
+   "end": 22.677
+  },
+  {
+   "text": "made",
+   "start": 22.73,
+   "end": 22.965
+  },
+  {
+   "text": "it",
+   "start": 22.965,
+   "end": 23.064999999999998
+  },
+  {
+   "text": "home",
+   "start": 23.064999999999998,
+   "end": 23.335
+  },
+  {
+   "text": "fine",
+   "start": 23.335,
+   "end": 23.769999999999996
+  },
+  {
+   "text": "but",
+   "start": 24.169999999999998,
+   "end": 24.305
+  },
+  {
+   "text": "I've",
+   "start": 24.305,
+   "end": 24.495
+  },
+  {
+   "text": "got",
+   "start": 24.494999999999997,
+   "end": 24.72
+  },
+  {
+   "text": "a",
+   "start": 24.72,
+   "end": 24.794999999999998
+  },
+  {
+   "text": "long",
+   "start": 24.794999999999998,
+   "end": 25.064999999999998
+  },
+  {
+   "text": "trip",
+   "start": 25.064999999999998,
+   "end": 25.345
+  },
+  {
+   "text": "next",
+   "start": 25.345,
+   "end": 25.665
+  },
+  {
+   "text": "month",
+   "start": 25.665,
+   "end": 26.055
+  },
+  {
+   "text": "so",
+   "start": 26.455,
+   "end": 26.695
+  },
+  {
+   "text": "do",
+   "start": 26.694999999999997,
+   "end": 26.905
+  },
+  {
+   "text": "you",
+   "start": 26.904999999999998,
+   "end": 27.06
+  },
+  {
+   "text": "think",
+   "start": 27.06,
+   "end": 27.334999999999997
+  },
+  {
+   "text": "I",
+   "start": 27.334999999999997,
+   "end": 27.381999999999998
+  },
+  {
+   "text": "can",
+   "start": 27.43,
+   "end": 27.61
+  },
+  {
+   "text": "press",
+   "start": 27.61,
+   "end": 27.924999999999997
+  },
+  {
+   "text": "on",
+   "start": 27.924999999999997,
+   "end": 28.11
+  },
+  {
+   "text": "or",
+   "start": 28.11,
+   "end": 28.244999999999997
+  },
+  {
+   "text": "should",
+   "start": 28.244999999999997,
+   "end": 28.47
+  },
+  {
+   "text": "I",
+   "start": 28.47,
+   "end": 28.522
+  },
+  {
+   "text": "get",
+   "start": 28.575,
+   "end": 28.759999999999998
+  },
+  {
+   "text": "it",
+   "start": 28.759999999999998,
+   "end": 28.874999999999996
+  },
+  {
+   "text": "checked",
+   "start": 28.874999999999996,
+   "end": 29.334999999999997
+  }
+ ]
+}

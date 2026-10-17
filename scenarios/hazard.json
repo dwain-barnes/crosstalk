@@ -1,0 +1,217 @@
+{
+ "duration": 30.5900625,
+ "utterances": [
+  {
+   "start": 1.0,
+   "end": 4.025,
+   "text": "Hi, I'm doing a bit of electrical work at home."
+  },
+  {
+   "start": 8.025,
+   "end": 14.22,
+   "text": "Right, so I've switched the plug socket on, and I'm just going to touch the bare wire to see if it's live"
+  },
+  {
+   "start": 20.22,
+   "end": 22.59,
+   "text": "Okay, so what should I do instead?"
+  }
+ ],
+ "words": [
+  {
+   "text": "Hi",
+   "start": 1.1,
+   "end": 1.305
+  },
+  {
+   "text": "I'm",
+   "start": 1.805,
+   "end": 1.9749999999999999
+  },
+  {
+   "text": "doing",
+   "start": 1.975,
+   "end": 2.2649999999999997
+  },
+  {
+   "text": "a",
+   "start": 2.2649999999999997,
+   "end": 2.32
+  },
+  {
+   "text": "bit",
+   "start": 2.32,
+   "end": 2.54
+  },
+  {
+   "text": "of",
+   "start": 2.54,
+   "end": 2.645
+  },
+  {
+   "text": "electrical",
+   "start": 2.645,
+   "end": 3.2249999999999996
+  },
+  {
+   "text": "work",
+   "start": 3.225,
+   "end": 3.505
+  },
+  {
+   "text": "at",
+   "start": 3.505,
+   "end": 3.605
+  },
+  {
+   "text": "home",
+   "start": 3.605,
+   "end": 4.025
+  },
+  {
+   "text": "Right",
+   "start": 8.125,
+   "end": 8.46
+  },
+  {
+   "text": "so",
+   "start": 8.86,
+   "end": 9.1
+  },
+  {
+   "text": "I've",
+   "start": 9.1,
+   "end": 9.26
+  },
+  {
+   "text": "switched",
+   "start": 9.26,
+   "end": 9.66
+  },
+  {
+   "text": "the",
+   "start": 9.66,
+   "end": 9.75
+  },
+  {
+   "text": "plug",
+   "start": 9.75,
+   "end": 10.06
+  },
+  {
+   "text": "socket",
+   "start": 10.06,
+   "end": 10.475
+  },
+  {
+   "text": "on",
+   "start": 10.475,
+   "end": 10.805
+  },
+  {
+   "text": "and",
+   "start": 11.205,
+   "end": 11.31
+  },
+  {
+   "text": "I'm",
+   "start": 11.31,
+   "end": 11.475
+  },
+  {
+   "text": "just",
+   "start": 11.475,
+   "end": 11.765
+  },
+  {
+   "text": "going",
+   "start": 11.765,
+   "end": 12.065000000000001
+  },
+  {
+   "text": "to",
+   "start": 12.065000000000001,
+   "end": 12.165
+  },
+  {
+   "text": "touch",
+   "start": 12.165,
+   "end": 12.41
+  },
+  {
+   "text": "the",
+   "start": 12.465,
+   "end": 12.56
+  },
+  {
+   "text": "bare",
+   "start": 12.56,
+   "end": 12.805
+  },
+  {
+   "text": "wire",
+   "start": 12.805,
+   "end": 13.125
+  },
+  {
+   "text": "to",
+   "start": 13.125,
+   "end": 13.265
+  },
+  {
+   "text": "see",
+   "start": 13.265,
+   "end": 13.530000000000001
+  },
+  {
+   "text": "if",
+   "start": 13.530000000000001,
+   "end": 13.665
+  },
+  {
+   "text": "it's",
+   "start": 13.665,
+   "end": 13.855
+  },
+  {
+   "text": "live",
+   "start": 13.855,
+   "end": 14.22
+  },
+  {
+   "text": "Okay",
+   "start": 20.32,
+   "end": 20.65
+  },
+  {
+   "text": "so",
+   "start": 21.15,
+   "end": 21.395
+  },
+  {
+   "text": "what",
+   "start": 21.395,
+   "end": 21.575
+  },
+  {
+   "text": "should",
+   "start": 21.575,
+   "end": 21.81
+  },
+  {
+   "text": "I",
+   "start": 21.81,
+   "end": 21.862
+  },
+  {
+   "text": "do",
+   "start": 21.915,
+   "end": 22.095
+  },
+  {
+   "text": "instead",
+   "start": 22.095,
+   "end": 22.59
+  }
+ ]
+}

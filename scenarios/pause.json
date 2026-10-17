@@ -1,0 +1,262 @@
+{
+ "duration": 35.7750625,
+ "utterances": [
+  {
+   "start": 1.0,
+   "end": 5.26,
+   "text": "Hi, have you got a minute? I want to ask you something."
+  },
+  {
+   "start": 10.26,
+   "end": 11.78,
+   "text": "So I was thinking about"
+  },
+  {
+   "start": 12.979999999999999,
+   "end": 17.435,
+   "text": "maybe learning the piano this year, but I'm not sure if I'm too old to start."
+  },
+  {
+   "start": 23.435,
+   "end": 27.775,
+   "text": "Okay. And how long would it take before I could play a simple song?"
+  }
+ ],
+ "words": [
+  {
+   "text": "Hi",
+   "start": 1.1,
+   "end": 1.305
+  },
+  {
+   "text": "have",
+   "start": 1.805,
+   "end": 2.02
+  },
+  {
+   "text": "you",
+   "start": 2.02,
+   "end": 2.17
+  },
+  {
+   "text": "got",
+   "start": 2.17,
+   "end": 2.3949999999999996
+  },
+  {
+   "text": "a",
+   "start": 2.395,
+   "end": 2.45
+  },
+  {
+   "text": "minute",
+   "start": 2.45,
+   "end": 2.8499999999999996
+  },
+  {
+   "text": "I",
+   "start": 3.6999999999999997,
+   "end": 3.752
+  },
+  {
+   "text": "want",
+   "start": 3.8049999999999997,
+   "end": 4.08
+  },
+  {
+   "text": "to",
+   "start": 4.08,
+   "end": 4.21
+  },
+  {
+   "text": "ask",
+   "start": 4.21,
+   "end": 4.539999999999999
+  },
+  {
+   "text": "you",
+   "start": 4.54,
+   "end": 4.695
+  },
+  {
+   "text": "something",
+   "start": 4.695,
+   "end": 5.26
+  },
+  {
+   "text": "So",
+   "start": 10.36,
+   "end": 10.629999999999999
+  },
+  {
+   "text": "I",
+   "start": 10.629999999999999,
+   "end": 10.695
+  },
+  {
+   "text": "was",
+   "start": 10.76,
+   "end": 10.98
+  },
+  {
+   "text": "thinking",
+   "start": 10.98,
+   "end": 11.37
+  },
+  {
+   "text": "about",
+   "start": 11.37,
+   "end": 11.78
+  },
+  {
+   "text": "maybe",
+   "start": 13.079999999999998,
+   "end": 13.389999999999999
+  },
+  {
+   "text": "learning",
+   "start": 13.389999999999999,
+   "end": 13.745
+  },
+  {
+   "text": "the",
+   "start": 13.745,
+   "end": 13.819999999999999
+  },
+  {
+   "text": "piano",
+   "start": 13.819999999999999,
+   "end": 14.325
+  },
+  {
+   "text": "this",
+   "start": 14.325,
+   "end": 14.559999999999999
+  },
+  {
+   "text": "year",
+   "start": 14.559999999999999,
+   "end": 14.874999999999998
+  },
+  {
+   "text": "but",
+   "start": 15.274999999999999,
+   "end": 15.415
+  },
+  {
+   "text": "I'm",
+   "start": 15.415,
+   "end": 15.579999999999998
+  },
+  {
+   "text": "not",
+   "start": 15.579999999999998,
+   "end": 15.825
+  },
+  {
+   "text": "sure",
+   "start": 15.825,
+   "end": 16.095
+  },
+  {
+   "text": "if",
+   "start": 16.095,
+   "end": 16.235
+  },
+  {
+   "text": "I'm",
+   "start": 16.235,
+   "end": 16.404999999999998
+  },
+  {
+   "text": "too",
+   "start": 16.404999999999998,
+   "end": 16.634999999999998
+  },
+  {
+   "text": "old",
+   "start": 16.634999999999998,
+   "end": 16.854999999999997
+  },
+  {
+   "text": "to",
+   "start": 16.854999999999997,
+   "end": 16.955
+  },
+  {
+   "text": "start",
+   "start": 16.955,
+   "end": 17.435
+  },
+  {
+   "text": "Okay",
+   "start": 23.535,
+   "end": 23.855
+  },
+  {
+   "text": "And",
+   "start": 24.805,
+   "end": 24.924999999999997
+  },
+  {
+   "text": "how",
+   "start": 24.924999999999997,
+   "end": 25.075
+  },
+  {
+   "text": "long",
+   "start": 25.13,
+   "end": 25.435
+  },
+  {
+   "text": "would",
+   "start": 25.435,
+   "end": 25.595
+  },
+  {
+   "text": "it",
+   "start": 25.595,
+   "end": 25.709999999999997
+  },
+  {
+   "text": "take",
+   "start": 25.709999999999997,
+   "end": 25.95
+  },
+  {
+   "text": "before",
+   "start": 25.95,
+   "end": 26.32
+  },
+  {
+   "text": "I",
+   "start": 26.32,
+   "end": 26.381999999999998
+  },
+  {
+   "text": "could",
+   "start": 26.445,
+   "end": 26.625
+  },
+  {
+   "text": "play",
+   "start": 26.625,
+   "end": 26.831999999999997
+  },
+  {
+   "text": "a",
+   "start": 26.889999999999997,
+   "end": 26.955
+  },
+  {
+   "text": "simple",
+   "start": 26.955,
+   "end": 27.314999999999998
+  },
+  {
+   "text": "song",
+   "start": 27.314999999999998,
+   "end": 27.775
+  }
+ ]
+}

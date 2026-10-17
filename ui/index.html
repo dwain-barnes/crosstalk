@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Crosstalk</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%231f9d6b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>
+  // before first paint, so a saved theme doesn't flash
+  try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>Crosstalk</h1>
+    <span class="badge" id="model" hidden></span>
+  </div>
+  <ul class="pills" aria-label="Services">
+    <li class="pill" id="p_stt"><span class="dot"></span>STT<span class="sr" data-state>unknown</span></li>
+    <li class="pill" id="p_llm"><span class="dot"></span>LLM<span class="sr" data-state>unknown</span></li>
+    <li class="pill" id="p_tts"><span class="dot"></span>TTS<span class="sr" data-state>unknown</span></li>
+  </ul>
+  <div class="tools">
+    <button class="icon" id="theme" type="button" aria-label="Dark theme" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="moon" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/><g class="sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+    </button>
+    <button class="icon" id="open_settings" type="button" aria-label="Settings" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="app">
+  <section class="stage" id="stage" data-state="idle" aria-label="Call">
+    <div class="dial">
+      <div class="ring" aria-hidden="true">
+        <span class="halo"></span><span class="wave"></span><span class="wave"></span><span class="flash"></span>
+      </div>
+      <button id="call" type="button" aria-label="Start call" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/></svg>
+        <span id="call_label">Start</span>
+      </button>
+    </div>
+    <p class="state" id="state">Connecting</p>
+    <p class="sub" id="sub"></p>
+    <p class="msg" id="msg" role="status"></p>
+
+    <div class="levels">
+      <div class="meter" id="meter" title="Input level. The marker is the level the server counts as speech.">
+        <div class="fill"></div><div class="peak"></div><div class="thr"></div>
+      </div>
+      <span class="mono" id="db">-- dB</span>
+      <label class="gain">Gain
+        <input id="gain" type="range" min="0" max="40" step="1" value="0">
+        <output id="gainv" for="gain" class="mono">+0 dB</output>
+      </label>
+    </div>
+
+    <dl class="stats">
+      <div><dt>Time</dt><dd id="s_t">0:00</dd></div>
+      <div><dt>Tick</dt><dd id="s_n">-</dd></div>
+      <div><dt>LLM</dt><dd id="s_ms">-</dd></div>
+      <div><dt>Queue</dt><dd id="s_q">-</dd></div>
+      <div><dt>Talk-over</dt><dd id="s_over">-</dd></div>
+      <div><dt>Cuts</dt><dd id="s_cuts">0</dd></div>
+    </dl>
+  </section>
+
+  <section class="talk" aria-label="Conversation">
+    <div class="log" id="log" tabindex="0" aria-label="Transcript">
+      <p class="empty" id="empty">Start a call and say hello, or type a line below once it's running.</p>
+    </div>
+    <button class="more" id="more" type="button" hidden>New messages</button>
+    <form class="say" id="say">
+      <label class="sr" for="line">Type a line</label>
+      <input id="line" placeholder="Type as if spoken" autocomplete="off" enterkeyhint="send" disabled>
+      <button type="submit" id="send" disabled>Send</button>
+    </form>
+  </section>
+</main>
+
+<div class="sr" aria-live="polite" id="live"></div>
+
+<dialog id="settings" aria-labelledby="settings_title">
+  <form method="dialog" class="sheet">
+    <header>
+      <h2 id="settings_title">Settings</h2>
+      <button class="icon" value="close" aria-label="Close settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+
+    <fieldset>
+      <legend>Audio</legend>
+      <label class="field">Microphone <select id="mic"></select></label>
+      <div class="row">
+        <div class="meter small" id="meter2" aria-hidden="true"><div class="fill"></div><div class="peak"></div><div class="thr"></div></div>
+        <button type="button" id="test">Test mic</button>
+      </div>
+      <label class="field">Output <select id="out"></select></label>
+      <label class="switch"><input id="agc" type="checkbox" checked> Auto gain</label>
+      <label class="switch"><input id="ns" type="checkbox"> Noise suppression</label>
+      <label class="switch"><input id="ec" type="checkbox"> Echo cancel <small>off keeps barge-in working; wear headphones</small></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Turn taking <small>applies from the next tick</small></legend>
+      <label class="switch"><input id="reask" type="checkbox" checked> Re-ask mid-answer only</label>
+      <label class="switch"><input id="bc_gate" type="checkbox" checked> Backchannel gate</label>
+      <label class="switch"><input id="after_final" type="checkbox" checked> Answer after final</label>
+      <label class="field">Listen threshold
+        <span class="row"><input id="threshold" type="range" min="0" max="1" step="0.05" value="0.3">
+        <output id="thrv" for="threshold" class="mono">0.30</output></span>
+      </label>
+    </fieldset>
+
+    <details>
+      <summary>Tick log</summary>
+      <pre id="ticks"></pre>
+    </details>
+  </form>
+</dialog>
+
+<template id="summary_tpl">
+  <article class="summary" aria-label="Call summary">
+    <h3>Call ended</h3>
+    <dl>
+      <div><dt>Duration</dt><dd data-k="dur"></dd></div>
+      <div><dt>Replies</dt><dd data-k="replies"></dd></div>
+      <div><dt>First word</dt><dd data-k="ttfw"></dd></div>
+      <div><dt>Talk-over</dt><dd data-k="over"></dd></div>
+    </dl>
+    <p class="saved">Saved to <code data-k="dir"></code></p>
+    <a class="download" data-k="wav" download>Download call.wav</a>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
